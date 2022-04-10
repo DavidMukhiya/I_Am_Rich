@@ -14,8 +14,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-james-wheeler-417074.jpg&fm=jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
